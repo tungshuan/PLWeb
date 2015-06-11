@@ -92,7 +92,8 @@ html.html{
                         input(type: 'text', id: 'adjustGrade')
                 }
                 br()
-
+				div(id: "detail")
+				br()
 				
                 table(class: 'classroom-report', id: 'reportTable'){
                         tr {

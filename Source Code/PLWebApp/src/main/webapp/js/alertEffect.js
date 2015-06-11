@@ -35,6 +35,30 @@ $(function() {
                                 else if($(this).val() == 0)
                                         gradeDetail[0]++;
                         });
+						$('.stuAverage').each(function() {
+                                if($(this).html() == 100)
+                                        gradeDetail[10]++;
+                                else if($(this).html() >= 90)
+                                        gradeDetail[9]++;
+                                else if($(this).html() >= 80)
+                                        gradeDetail[8]++;
+                                else if($(this).html() >= 70)
+                                        gradeDetail[7]++;
+                                else if($(this).html() >= 60)
+                                        gradeDetail[6]++;
+                                else if($(this).html() >= 50)
+                                        gradeDetail[5]++;
+                                else if($(this).html() >= 40)
+                                        gradeDetail[4]++;
+                                else if($(this).html() >= 30)
+                                        gradeDetail[3]++;
+                                else if($(this).html() >= 20)
+                                        gradeDetail[2]++;
+                                else if($(this).html() >= 10)
+                                        gradeDetail[1]++;
+                                else if($(this).html() == 0)
+                                        gradeDetail[0]++;
+                        });
                         var scoreStandard = 0;
                         for(var i = 0; i < gradeDetail.length; i++) {
                                 $("#detail").append(scoreStandard + "分: " + gradeDetail[i] + "人　");

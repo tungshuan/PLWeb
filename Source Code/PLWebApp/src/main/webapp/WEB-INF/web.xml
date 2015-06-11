@@ -31,7 +31,7 @@
 	</context-param>
 	<context-param>
 		<param-name>mail_password</param-name>
-		<param-value></param-value>
+		<param-value>stainma221</param-value>
 	</context-param>
 	<context-param>
 		<param-name>mail_from</param-name>
